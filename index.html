@@ -154,6 +154,45 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0wtOG4p-HGQ" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+
+        <section>
+            <form>
+
+                <div class="form-group">
+                    <label for="contato-nome">Nome:</label>
+                    <input id="contato-nome" class="form-control" type="text" placeholder="Seu nome..."/>
+                </div>
+
+                <div class="form-group">
+                    <label for="contato-email">E-mail:</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input id="contato-email" class="form-control" type="email" placeholder="Email.."/>
+                    </div>
+                </div>
+
+                <div class="grupo-radio">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-pessoa" /> Pessoa Fisíca 
+                        </label>
+                    </div>
+        
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-pessoa" /> Pessoa Juridica
+                        </label>   
+                    </div>
+                </div><!--
+  
+                --><select class=" contato-select form-control">
+                    <option disabled selected >Tipo de Situação</option>
+                    <option>Casa</option>
+                    <option>Apartamento</option>
+                    <option>Mansão</option>
+                </select>
+            </form>
+        </section>
         
 
         <!-- JS files-->
